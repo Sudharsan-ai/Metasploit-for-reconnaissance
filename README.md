@@ -43,6 +43,7 @@ Following command is executed for scanning the systems on our local area network
 msf >  nmap -sT 192.168.1810/24 -p1-1000
 
 ## OUTPUT:
+<img width="697" height="804" alt="image" src="https://github.com/user-attachments/assets/236dc39f-aac0-4542-9b87-6c6879f9ca56" />
 
 ![Alt text](image/4.png)
 
@@ -53,6 +54,7 @@ scan the targets with the command db_nmap as follows.
 msf > db_nmap 192.168.181.0/24
 
 ## OUTPUT:
+<img width="901" height="845" alt="image" src="https://github.com/user-attachments/assets/80663520-9eee-4b43-a6d9-297638f35be3" />
 
 ![Alt text](image/5.png)
 
@@ -89,6 +91,8 @@ msfdb init
 
 Find the IP address of the Metasploitable machine first. Then, use the db_nmap command in msfconsole with Nmap flags to scan the MySQL database at 3306 port.
 db_nmap -sV -sC -p 3306 <metasploitable_ip_address>
+
+<img width="1727" height="530" alt="image" src="https://github.com/user-attachments/assets/536df224-b4c4-4d0b-a344-ff6aa44358ea" />
 
 ![Alt text](image/9.png)
 
